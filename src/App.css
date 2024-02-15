@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Rye', cursive;    
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Righteous', cursive;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    font-family: 'Rye', cursive;
+    text-shadow: 
+    0 0 10px #fff,
+      0 0 5px rgb(255, 0, 0),
+      0 0 10px rgb(255, 0, 0),
+      0 0 20px rgb(173, 6, 145),
+      0 0 25px rgb(110, 0, 0),
+      0 0 0px rgb(255, 102, 0);;
+}
+h4 {
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-family: 'Rye', cursive;
+}
+
+button {
+    outline: 2px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-family:'Righteous', cursive;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #FFFF00;
+    background: #FFFF00;
+    color: rgb(175, 0, 0);
+    font-weight: 600;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+button:hover {
+    background-color: #FFFF00;
+    color: #000;
+    box-shadow: 0 0 5px #FFFF00,
+                0 0 20px rgb(255 255 0 / 0.8),
+                0 0 35px rgb(255 255 0 / 0.7),
+                0 0 50px rgb(255 255 0 / 0.6);
+    border-color: #fff;
+    border-radius: 15px;
+}
+
+#square {
+    height: 200px;
+    width: 200px;
+    border: 2px solid yellow;
+    box-shadow:
+    0 0 10px #fff,
+      0 0 5px rgb(255, 0, 0),
+      0 0 10px rgb(255, 0, 0),
+      0 0 20px rgb(185, 11, 93),
+      0 0 25px rgb(255, 102, 0),
+      0 0 0px rgb(255, 102, 0);
+    font-size: 10rem;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#gameboard {
+    display: flex;
+    width: 620px;
+    flex-wrap: wrap;
+}
+
+.scorebox {
+    height: 375px;
+    width: 275px;
+    background-color: rgba(64, 136, 196, 0.733);
+    border: 2px solid yellow;
+    border-radius: 10px;
+    box-shadow:
+    0 0 10px #fff,
+      0 0 5px rgb(255, 0, 0),
+      0 0 10px rgb(255, 0, 0),
+      0 0 20px rgb(173, 6, 145),
+      0 0 25px rgb(110, 0, 0),
+      0 0 0px rgb(255, 102, 0);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: end;
+    grid-auto-rows: 200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .box1 {
+    align-self: stretch;
+    margin-left: 100px;
+  }
+  
+  .box2 {
+    align-self: start;
+    margin-left: 50px;
+  }
+
+
+body {
+  background: url("./img/bg.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

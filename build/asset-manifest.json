@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a83bae48.chunk.css",
+    "main.js": "/static/js/main.b5e8c9f6.chunk.js",
+    "main.js.map": "/static/js/main.b5e8c9f6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d44f8a3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d44f8a3e.js.map",
+    "static/js/2.2928c0e4.chunk.js": "/static/js/2.2928c0e4.chunk.js",
+    "static/js/2.2928c0e4.chunk.js.map": "/static/js/2.2928c0e4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a83bae48.chunk.css.map": "/static/css/main.a83bae48.chunk.css.map",
+    "static/js/2.2928c0e4.chunk.js.LICENSE.txt": "/static/js/2.2928c0e4.chunk.js.LICENSE.txt",
+    "static/media/abides.3486720c.jpeg": "/static/media/abides.3486720c.jpeg",
+    "static/media/App.css": "/static/media/bg.15e252f1.png",
+    "static/media/the_jesus.700cae6c.jpeg": "/static/media/the_jesus.700cae6c.jpeg",
+    "static/media/zero.219fe757.jpeg": "/static/media/zero.219fe757.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d44f8a3e.js",
+    "static/js/2.2928c0e4.chunk.js",
+    "static/css/main.a83bae48.chunk.css",
+    "static/js/main.b5e8c9f6.chunk.js"
+  ]
+}
